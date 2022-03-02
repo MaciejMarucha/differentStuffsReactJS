@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+    .registerForm{
+        margin-top: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .registerForm{
+        margin-top: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        border: 1px solid rgb(191, 191, 191);
+        border-radius: 10px;
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .registerForm{
+        margin-top: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 400px;
+        border: 1px solid rgb(191, 191, 191);
+        border-radius: 10px;
+        padding: 70px;
+    }
+}
